@@ -18,3 +18,12 @@ spring:
       hibernate:
         format_sql: true
     show-sql: true
+
+discord:
+  bot:
+    token: ${DISCORD_TOKEN}
+  guild:
+    id: ${GUILD_ID}
+
+  channel:
+    id: ${CHANNEL_ID}
